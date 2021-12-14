@@ -1,0 +1,32 @@
+{
+	"name": "nodejs-mongocrud",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon src/index.js --exec babel-node"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AranBeitia/NODEJS-mongocrud.git"
+	},
+	"author": "AranBeitia",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AranBeitia/NODEJS-mongocrud/issues"
+	},
+	"homepage": "https://github.com/AranBeitia/NODEJS-mongocrud#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-handlebars": "^6.0.2",
+		"mongoose": "^6.1.1",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.16.0",
+		"@babel/core": "^7.16.5",
+		"@babel/node": "^7.16.5",
+		"@babel/preset-env": "^7.16.5",
+		"nodemon": "^2.0.15"
+	}
+}
