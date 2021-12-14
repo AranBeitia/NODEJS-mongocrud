@@ -6,7 +6,7 @@ import mongoose from 'mongoose'
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
 		})
-		console.log('DB connected to', db.connections)
+		console.log('DB connected to', db.connections[0].name)
 	} catch (error) {
 		console.log(error)
 	}
